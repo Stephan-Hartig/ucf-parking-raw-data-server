@@ -1,0 +1,21 @@
+{
+  "name": "raw-data-server",
+  "version": "1.0.0",
+  "description": "This server uses the `ucf-parking` API to routinely fetch and store the data from the official UCF parking website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "author": "Stephan Hartig",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^9.0.1",
+    "mysql": "^2.18.1",
+    "typescript": "^4.2.4",
+    "ucf-parking": "file:/usr/local/lib/node_modules/ucf-parking/ucf-parking-1.0.0.tgz"
+  },
+  "devDependencies": {
+    "@types/mysql": "^2.15.18",
+    "@types/node": "^15.0.2"
+  }
+}

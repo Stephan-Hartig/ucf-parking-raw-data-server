@@ -1,2 +1,7 @@
-# fetch-raw-parking-data
-Server that uses the ucf-parking API to store information about UCF's parking.
+
+To compile the typescript run
+```
+   npx tsc --project ./
+```
+and then run it with node.
+
