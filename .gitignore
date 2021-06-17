@@ -1,5 +1,8 @@
-# Env
+# Environment
 .env
+
+# TypeScript, so no JS.
+*.js
 
 # Logs
 logs
