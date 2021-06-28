@@ -4,7 +4,9 @@
   "description": "This server uses the `ucf-parking` API to routinely fetch and store the data from the official UCF parking website.",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "build": "tsc",
+    "jank-watch": "nodemon -x 'node index.js || touch index.js'"
   },
   "author": "Stephan Hartig",
   "license": "MIT",
